@@ -12,6 +12,7 @@ flowchart LR
   A --> Mod[Models]
   Mod --> T[TPP]
   D --> C[Complement]
+  T --> R[Red team]
 ```
 
 | File | Contents |
@@ -24,4 +25,5 @@ flowchart LR
 | [05-models.md](05-models.md) | Cells, mice, what they can and cannot tell you |
 | [06-target-product-profile.md](06-target-product-profile.md) | TPP for seed-stage NVL-101 |
 | [07-complement.md](07-complement.md) | CARPA, ABC, PEG, complement blockade |
+| [08-adversarial-review.md](08-adversarial-review.md) | Scientific red-team |
 | [references.md](references.md) | Verified citations |

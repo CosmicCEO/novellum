@@ -2,16 +2,18 @@
 
 Living document. **Minimal** = what must be true to stay in the program. **Ideal** = what we would take into a partner conversation after Phase 1 PD. Numbers are design goals until a protocol and a specification exist.
 
-Citations: [references.md](references.md). Complement detail: [07-complement.md](07-complement.md).
+Citations: [references.md](references.md). Complement detail: [07-complement.md](07-complement.md). Language discipline: [08-adversarial-review.md](08-adversarial-review.md) §7.
 
 ```mermaid
 flowchart TD
-  A[Identity locked] --> B{IV myeloid PD}
-  B -->|Yes| C[IV TPP is the label path]
-  B -->|No| D{CSF myeloid PD}
-  D -->|Yes| E[CSF TPP becomes primary]
+  A[Identity locked] --> B{Sorted myeloid protein IV}
+  B -->|Yes| C[Then an IV TPP may be written]
+  B -->|No| D{Sorted myeloid protein CSF}
+  D -->|Yes| E[Then a CSF TPP may be written]
   D -->|No| F[Retire NVL-101]
 ```
+
+No route is preferred until that diamond resolves. IV is the *commercial wish*. CSF is the *higher prior*. Neither is the product yet.
 
 ---
 
@@ -23,179 +25,129 @@ flowchart TD
 | Legal name placeholder | TREM2 mRNA lipid nanoparticle | Same |
 | Modality | Non-replicating, non-integrating mRNA in an ionizable LNP | Same |
 | Payload | Human WT TREM2 isoform 1 (NP_061838) | Same sequence; tighter UTR/process |
+| Particle claim allowed now | Ionizable LNP; tropism unknown | Myeloid protein demonstrated, then name the tropism |
 | Editor | None | None |
 | Combination product | Drug only | Drug only (no FUS device) |
 | US lead center | CBER (mRNA-LNP) | CBER; neurology consult |
-| Designation intent | None at seed | Fast Track / orphan only if a genetic TREM2-disease wedge is added later — **not** the AD plan |
+| Designation intent | None at seed | Fast Track / orphan only if a genetic TREM2-disease wedge is added later |
 
-Classification note: this is a **gene *material*** product (mRNA), not a gene *therapy* that alters the genome. Do not describe it as CRISPR, AAV, or cell therapy in any filing language.
+Do not write “microglia-biased LNP” in any external sentence until sorted CNS myeloid protein exists.
+
+Classification note: this is a **gene *material*** product (mRNA), not a gene *therapy* that alters the genome.
 
 ---
 
 ## 2. Indication and patient
 
-| Attribute | Minimal | Ideal |
+Two nested populations. Do not treat them as the same TAM.
+
+| Attribute | Genetically sharp (first scientific file) | Broader label ambition (only after PD in unselected myeloid biology) |
 |---|---|---|
 | Disease | Alzheimer’s disease | Same |
-| Stage for first label ambition | Early AD / MCI due to AD | Prodromal + mild AD |
-| Biomarker gate | Amyloid-positive (PET or CSF Aβ 42/40) | Amyloid+ and evidence of microglial engagement (CSF sTREM2 or TSPO/other) |
-| Genetics | Unselected early AD | Enrichment arm for TREM2 R47H / hypomorphic carriers[[1]](references.md)[[2]](references.md) |
+| Genetics | TREM2 R47H / other hypomorphic carriers[[1]](references.md)[[2]](references.md) | Unselected early AD |
+| Stage | MCI or mild dementia due to AD | Same |
+| Biomarker gate | Amyloid-positive (PET, CSF Aβ 42/40, or validated blood) | Same |
 | Age | 50–85 | Same |
-| Background SoC | Stable acetylcholinesterase inhibitor / memantine allowed | Stable anti-amyloid mAb allowed after drug–drug and ARIA risk is written down |
-| Excluded | Moderate–severe dementia as index population; pure tauopathies; NHD/PLOSL as the first file[[7]](references.md) | Same |
+| Why this order | Copy-number is most falsifiable where receptor function is already short | Large channel is a payer story, not the first proof |
 
-Rationale: TREM2 biology is stage-dependent in amyloid models.[[3]](references.md)[[12]](references.md) Compaction and DAM programs matter while plaques are being contained.[[5]](references.md)[[6]](references.md) Late symptomatic AD is a different bet.
+Excluded as index: moderate–severe dementia; pure tauopathies; NHD/PLOSL as the first file.[[7]](references.md)
+
+Rationale for *early* stage: TREM2 effects on amyloid are stage-dependent in mice.[[3]](references.md)[[12]](references.md) That is a constraint, not evidence that early unselected AD is the launch population.
 
 ---
 
 ## 3. Mechanism claim we are allowed to make
 
-**Internal hypothesis (not a label):** NVL-101 raises TREM2 *copy number* on CNS myeloid cells so more receptor is available for lipid / debris sensing and plaque-associated function.[[4]](references.md)
+**Internal hypothesis (not a label):** if the particle transfects the right cell, more WT TREM2 copy number may improve lipid sensing and plaque-associated function beyond occupancy of existing receptor.[[4]](references.md)
 
-| What we may say after data | What we may not say |
+| After the matching data | Still not allowed |
 |---|---|
-| Product delivers TREM2 mRNA | Cures AD |
-| Increases TREM2 protein in transfected microglia (preclinical) | Restores cognition |
-| Moves CSF sTREM2 (if seen) | Replaces anti-amyloid antibodies |
-| Transient, redosable | Permanent genome rewrite |
+| Product is TREM2 mRNA in an LNP | Microglia-biased, brain-penetrant, tropic |
+| Increases TREM2 protein in transfected iPSC-microglia | Increases TREM2 on plaque-associated human microglia |
+| Increases TREM2 on sorted mouse CNS myeloid cells | Human PD |
+| Moves CSF sTREM2 *and* a second myeloid marker, with empty-LNP control | sTREM2 rise equals efficacy or target engagement |
+| Transient if redose works | Permanent rewrite |
 
-Agonist antibodies and oral agonists occupy receptor that is already there. This TPP is only interesting if copy-number adds something those agents cannot.
+CSF sTREM2 is confounded by shedding, peripheral myeloid leak, and inflammation. It is a *candidate* marker, never a standalone PD claim.
+
+Falsifier: WT mRNA in TREM2-low / R47H microglia does not beat agonist + empty LNP on surface receptor and pSYK/phagocytosis.
 
 ---
 
 ## 4. Target cell, route, regimen
 
-| Attribute | Minimal | Ideal |
+| Attribute | Now | After a pass |
 |---|---|---|
-| Cell | CNS microglia / CNS-associated myeloid | Preferentially plaque-associated / DAM-like microglia[[6]](references.md) |
-| Off-cell | Neurons and astrocytes not the PD cell | Off-cell transfection quantified and low |
-| Preferred route | IV infusion | IV, 30–120 min, outpatient infusion center |
-| Acceptable route | CSF (ICM preclinical; lumbar IT as human analog) | Lumbar IT only if IV myeloid/liver ratio is hopeless |
+| Cell we *want* | Parenchymal plaque-associated microglia[[6]](references.md) | Same, if the particle actually hits them |
+| Cell we may get | Homeostatic microglia, BAM, meningeal, Kupffer | Must be named if that is the product |
+| Route | Undeclared. Test IV and CSF in parallel | Whichever produced sorted myeloid protein at a tolerable dose |
+| IV | Commercial wish; hepatic prior is against it[[10]](references.md) | Outpatient infusion only if the IV arm passed |
+| CSF (ICM / lumbar analog) | Higher prior for exposure; different human product | Primary TPP if IV failed |
 | Out of scope | FUS+IV, intraparenchymal, nasal as primary | Same |
-| Starting dose logic | Allometric from NOAEL and from the mouse dose that first moves sorted-microglia TREM2 | Same, plus empty-LNP cytokine ceiling |
-| Frequency | Redose set by protein decay, not by vaccine schedules | Every 4–12 weeks if PD lasts weeks |
-| Treatment duration (concept) | Chronic intermittent | Same; stop rules on ARIA-like MRI, LFTs, complement |
-
-IV is the commercial path. CSF is a scientific control and a fallback TPP, not a secret second product.
+| Dose | Not set | Allometric from NOAEL and from the mouse dose that first moves *sorted-microglia TREM2 protein* |
+| Interval | **Unknown.** Do not print 4–12 weeks | Set by protein decay in non-dividing myeloid cells after ≥2 in vivo doses, with anti-PEG measured[[15]](references.md) |
+| Duration concept | Not set | Chronic intermittent only if interval and complement allow |
 
 ---
 
 ## 5. Pharmacodynamic and efficacy ladder
 
-Success is staged. Do not promote a later rung before the earlier rung exists.
-
 | Rung | Setting | Minimal pass | Ideal |
 |---|---|---|---|
 | 0 | mRNA QC | Integrity ≥ 80%, cap present | Same + dsRNA below a numbered spec |
-| 1 | iPSC-microglia | ≥2× surface TREM2 vs empty LNP; ≥50% relative phagocytosis gain | Same in an R47H or TREM2-low line[[2]](references.md) |
-| 2 | Mouse delivery | Sorted microglia reporter or TREM2 protein at a dose with ALT/AST ≤3× vehicle | IV path wins; CSF reserved as control |
-| 3 | Amyloid model | Directional plaque-associated microglia / compaction after exposure is proven[[5]](references.md)[[11]](references.md) | Quantified plaque morphology + DAM transcripts[[6]](references.md) |
-| 4 | Phase 1 human | Safety + any on-mechanism CSF movement | CSF sTREM2 rise without runaway inflammation |
-| 5 | Phase 2 | Biomarker (amyloid PET or CSF) with acceptable safety | Clinical slope on CDR-SB or similar as secondary |
+| 1 | iPSC-microglia | ≥2× surface TREM2 vs empty LNP *and* vs irrelevant mRNA; phagocytosis and pSYK after ligand, agonist comparison | Same in R47H or TREM2-low[[2]](references.md) |
+| 2 | Mouse delivery | TREM2 *protein* (not reporter alone) on FACS-sorted parenchymal myeloid cells; ALT/AST ≤3×; empty LNP subtracted | IV arm wins; otherwise declare CSF |
+| 3 | Amyloid model, two ages | Compaction / clustering without synaptic-marker loss[[5]](references.md)[[11]](references.md)[[12]](references.md) | DAM transcripts as support only[[6]](references.md) |
+| 4 | Phase 1 human | Safety. PD only if a pre-specified panel (not sTREM2 alone) moves | Panel plus imaging myeloid marker |
+| 5 | Phase 2 | Biomarker with acceptable safety | Clinical slope secondary |
 
-Cognition is **not** a Phase 1 endpoint and is not a seed claim.
+Cognition is not a Phase 1 endpoint.
 
 ---
 
 ## 6. Safety envelope
 
-Complement detail and assay list: [07-complement.md](07-complement.md).
+See [07-complement.md](07-complement.md).
 
 | Risk | Minimal control | Kill / hold |
 |---|---|---|
-| Infusion / complement / PEG antibodies | Shedding PEG-lipid preference; slow infusion; anti-PEG IgM/IgG and C3a/sC5b-9 on redose[[13]](references.md)[[14]](references.md)[[15]](references.md) | CARPA or ABC that particle design cannot fix; do not add a C5 drug to the product |
-| Liver | ALT/AST protocol limits; empty-LNP arm | Persistent >3× ULN with injury |
-| Innate RNA sensing | Modified nucleosides; dsRNA depletion[[8]](references.md)[[9]](references.md) | ISG storm at the PD dose |
-| CNS inflammation / edema | MRI protocol if human; mouse histopathology | ARIA-like signal without a mitigation plan |
-| Off-cell TREM2 in periphery | Biodistribution panel including spleen, liver, bone[[7]](references.md) | Unexpected osteoclast or macrophage toxicity |
-| Over-phagocytosis | Synapse markers only after exposure pass | Clear synaptic loss at PD dose |
-
-Pharmacologic C5 blockade is an in-vitro tool against anti-PEG–driven mRNA leak, not a seed premed.[[13]](references.md)
+| Infusion / complement / PEG | Shedding PEG-lipid; slow infusion; anti-PEG and C3a/sC5b-9 on redose[[13]](references.md)[[14]](references.md)[[15]](references.md) | CARPA or ABC particle design cannot fix |
+| Liver | ALT/AST; empty-LNP arm | Persistent >3× ULN with injury |
+| Innate RNA | Modified nucleosides; dsRNA depletion[[8]](references.md)[[9]](references.md) | ISG storm at the PD dose |
+| CNS edema | Histopathology; MRI if human | ARIA-like signal without a plan |
+| Peripheral myeloid | Spleen, liver, bone[[7]](references.md) | Osteoclast or macrophage toxicity |
+| Over-phagocytosis | Synaptic markers at the PD dose | PSD-95 / drebrin drop — ranked kill, even if plaques look better |
 
 ---
 
-## 7. Presentation, storage, use
+## 7–9. Presentation, QTPP, CMC
 
-| Attribute | Minimal (GLP / early GMP) | Ideal (commercial sketch) |
+Unchanged in substance: frozen single-use vial; size 60–100 nm; PDI ≤ 0.2; encapsulation ≥ 80%; split CDMO. No multi-ligand conjugation in v1.
+
+---
+
+## 10. Competitive frame
+
+| Class | What they do | What we must still prove |
 |---|---|---|
-| Dosage form | Sterile dispersion for injection or infusion | Same |
-| Container | Single-use vial | Vial + closed-system transfer |
-| Strength | Set after mouse PD dose; do not invent mg/mL now | Unit dose covering one visit |
-| Storage | Frozen (≤ −20 °C or −70 °C) acceptable | 2–8 °C ≥ 3 months would be a CMC win, not a seed requirement |
-| In-use | Thaw once; no refreeze; limited room-temp window | 4–8 h after thaw |
-| Diluent | Compatible with standard IV bags if IV path | Same |
-| Visual | Opalescent, no visible particles beyond LNP scatter | Same |
+| Anti-amyloid mAbs | Remove plaque; ARIA | Different cell; not assumed safer around CAA |
+| TREM2 agonist mAb / oral | Occupancy | Copy number adds function in TREM2-low or variant cells |
+| Other CNS LNPs | Often neuron/astrocyte | Sorted myeloid *protein*, not skull luciferase[[10]](references.md) |
 
 ---
 
-## 8. Quality target product profile (QTPP)
+## 11. Explicit non-goals and banned phrases
 
-These become specification rows later. At seed they are process aims.
+Non-goals: longevity; Cas9/HDR; BDNF multi-cistron; CD34/CD90/c-Kit ligands; Phase 3 cognition as a seed milestone; FUS as part of NVL-101; co-packaged complement inhibitor.
 
-| CQA | Aim | Why |
-|---|---|---|
-| Identity, RNA | TREM2 CDS matches template (NGS or equivalent) | Wrong ORF is a different drug |
-| Integrity | ≥ 80% full-length by CE | Fragments do not make receptor |
-| Capping | Cap 1; % capped reported | Translation + innate profile |
-| polyA length | 80–120 nt, distribution reported | Stability |
-| dsRNA | Below immunoassay limit (set with CDMO) | Cytokines[[8]](references.md) |
-| Encapsulation | ≥ 80% | Free RNA is the wrong product |
-| Size | 60–100 nm z-average | Biodistribution |
-| PDI | ≤ 0.2 | Process control |
-| Charge / pKa | Recorded per composition | Screen variable, then freeze |
-| Residual solvent | Ethanol within parenteral limit | Safety |
-| Endotoxin | USP parenteral at GMP; research-grade numbered before that | Innate confound |
-| Bioburden / sterility | Sterile at DP | Parenteral |
-| Lipid impurities | Identified after composition freeze | FTO + tox |
-| Empty particle fraction | Reported | Safety vs potency |
-
-Composition freeze rule: no multi-ligand conjugation in v1. One lipid library. One payload.
+**Do not use until the matching rung exists:** microglia-biased; brain-penetrant; microglia-targeted; preferred IV route; q4–12 week dosing; CSF sTREM2 as proof of mechanism; launch population = all early AD.
 
 ---
 
-## 9. CMC posture (how the TPP is made)
+## 12. Label-facing sentence
 
-| Step | Seed posture |
-|---|---|---|
-| mRNA DS | TriLink or Aldevron; ψ-modified; dsRNA depleted |
-| LNP DP | Lonza / Cytiva-PNI / Catalent / Polymun; microfluidic mix |
-| Lipids | Licensed or catalog; FTO memo before IND-enabling spend |
-| Fill/finish | Separate sterile shop |
-| Release | Split COAs; company owns the specification |
+None at seed.
 
-No single end-to-end CDMO requirement.
+Draft only after rung 4, and only with the route that actually passed:
 
----
-
-## 10. Competitive frame the TPP must survive
-
-| Class | What they do | NVL-101 difference we must prove |
-|---|---|---|
-| Anti-amyloid mAbs | Remove plaque; ARIA | Different cell and mechanism; possible combo later |
-| TREM2 agonist mAbs | Cluster existing receptor | Copy number vs occupancy |
-| Oral TREM2 agonists | Brain-penetrant occupancy | Same occupancy problem |
-| Other CNS LNPs | Often neuron/astrocyte | Myeloid protein, not skull luciferase[[10]](references.md) |
-
-If we cannot beat “just agonize” in a TREM2-low or variant microglia assay, the TPP collapses even if delivery works.
-
----
-
-## 11. Explicit non-goals (keep the file honest)
-
-- Longevity or telomere claims
-- Genomic knock-in, HDR, Cas9
-- BDNF or multi-cistron payloads in v1
-- Stem-cell surface targeting (CD34 / CD90 / c-Kit)
-- Phase 3 cognitive superiority as a seed milestone
-- Device-enabled BBB opening as part of NVL-101
-- A complement inhibitor co-packaged with NVL-101
-
----
-
-## 12. Label-facing sketch (aspirational, post-human PD only)
-
-One sentence we would *want* after Phase 2, not what we have:
-
-> NVL-101 is a TREM2 mRNA-LNP for early, amyloid-positive Alzheimer’s disease, dosed intravenously on an intermittent schedule, intended to increase microglial TREM2 and support plaque-associated myeloid function.
-
-Until Phase 1 PD exists, that sentence stays in this file and off slides that imply human benefit.
+> NVL-101 is TREM2 mRNA in an LNP. Route and interval TBD from myeloid protein kinetics. Intended, if data allow, to raise TREM2 on CNS myeloid cells in amyloid-positive early AD, with TREM2-hypomorphic carriers as the first genetic slice.

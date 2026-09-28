@@ -13,6 +13,7 @@ flowchart LR
   Mod --> T[TPP]
   D --> C[Complement]
   T --> R[Red team]
+  R --> S[Solutions 1-3]
 ```
 
 | File | Contents |
@@ -26,4 +27,5 @@ flowchart LR
 | [06-target-product-profile.md](06-target-product-profile.md) | TPP for seed-stage NVL-101 |
 | [07-complement.md](07-complement.md) | CARPA, ABC, PEG, complement blockade |
 | [08-adversarial-review.md](08-adversarial-review.md) | Scientific red-team |
+| [09-solutions-1-3.md](09-solutions-1-3.md) | Fixes for delivery, wedge, construct |
 | [references.md](references.md) | Verified citations |

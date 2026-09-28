@@ -25,3 +25,9 @@ Confirmed published papers. PMIDs checked. Not an exhaustive review.
 11. Oakley H, Cole SL, Logan S, et al. Intraneuronal beta-amyloid aggregates, neurodegeneration, and neuron loss in transgenic mice with five familial Alzheimer's disease mutations: potential factors in amyloid plaque formation. *J Neurosci*. 2006;26(40):10129-10140. doi:10.1523/JNEUROSCI.1202-06.2006. PMID: [17021169](https://pubmed.ncbi.nlm.nih.gov/17021169/)
 
 12. Jay TR, Hirsch AM, Broihier ML, et al. Disease progression-dependent effects of TREM2 deficiency in a mouse model of Alzheimer's disease. *J Neurosci*. 2017;37(3):637-647. doi:10.1523/JNEUROSCI.2110-16.2016. PMID: [28100745](https://pubmed.ncbi.nlm.nih.gov/28100745/)
+
+13. Estapé Senti M, de Jongh CA, Dijkxhoorn K, et al. Anti-PEG antibodies compromise the integrity of PEGylated lipid-based nanoparticles via complement. *J Control Release*. 2022;341:475-486. doi:10.1016/j.jconrel.2021.11.042. PMID: [34890719](https://pubmed.ncbi.nlm.nih.gov/34890719/)
+
+14. Szebeni J. Complement activation-related pseudoallergy: a new class of drug-induced acute immune toxicity. *Toxicology*. 2005;216(2-3):106-121. doi:10.1016/j.tox.2005.07.023. PMID: [16140450](https://pubmed.ncbi.nlm.nih.gov/16140450/)
+
+15. Besin G, Milton J, Sabnis S, et al. Accelerated blood clearance of lipid nanoparticles entails a biphasic humoral response of B-1 followed by B-2 lymphocytes to distinct antigenic moieties. *Immunohorizons*. 2019;3(7):282-293. doi:10.4049/immunohorizons.1900029. PMID: [31356158](https://pubmed.ncbi.nlm.nih.gov/31356158/)

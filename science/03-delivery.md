@@ -7,6 +7,15 @@
 
 An IVIS glow of the skull after IV luciferase is not a pass. Sorted Tmem119/P2ry12/Hexb or CD11b+CD45int cells with reporter or TREM2 protein is a pass.
 
+```mermaid
+flowchart TD
+  L[Lipid library] --> IV{IV myeloid over liver}
+  IV -->|Acceptable| P[IV commercial path]
+  IV -->|Hopeless| CSF{CSF myeloid hit}
+  CSF -->|Yes| Q[CSF-facing product]
+  CSF -->|No| K[Kill]
+```
+
 ## Routes
 
 | Route | Role in the program |
@@ -67,4 +76,4 @@ Every in-vivo dose cohort:
 - Body weight, clinical score
 - Spleen and liver histopathology on the top two compositions
 
-Innate activation from the LNP can look like “microglial activation.” Subtract empty LNP.
+Innate activation from the LNP can look like microglial activation. Subtract empty LNP.

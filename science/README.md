@@ -2,6 +2,15 @@
 
 Technical package for **NVL-101**. Living documents. No clinical claims.
 
+```mermaid
+flowchart LR
+  B[TREM2 biology] --> M[mRNA design]
+  M --> D[LNP delivery]
+  D --> A[Assays]
+  A --> Mod[Models]
+  Mod --> T[TPP]
+```
+
 | File | Contents |
 |---|---|
 | [nvl-101-brief.md](nvl-101-brief.md) | One-page lock |

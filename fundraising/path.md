@@ -1,8 +1,8 @@
 # Fundraising path
 
 ## Order
-1. Entity + $0.25–0.75M F&F for dish work
-2. NIA SBIR/STTR specific aims (AD/ADRD caps)
+1. Entity + $0.25–0.75M F&F for dish work — see `business-plan/01-people.md` (Delaware + cap table)
+2. NIA SBIR/STTR — draft aims in [`sbir-aims.md`](sbir-aims.md)
 3. Specialty seed $3–8M (Dementia Discovery Fund, EQT Dementia, RNA/delivery seeds)
 4. Series A only after CNS myeloid PD
 
@@ -15,4 +15,4 @@
 - No aging-platform language
 
 ## 90-day motion
-Incorporate → one-pager + 12 slides → CRO microglia run → NIA PO call → two specialist funds with the first blot.
+Incorporate → one-pager + 12 slides → CRO microglia run → NIA PO call with `sbir-aims.md` → two specialist funds with the first blot.

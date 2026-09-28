@@ -1,67 +1,62 @@
 # Delivery
 
-Numbered notes point to [references.md](references.md).
+Numbered notes point to [references.md](references.md). Operating plan: [09-solutions-1-3.md](09-solutions-1-3.md).
 
 ## Two problems
 
 1. **Access** — particle must reach brain interstitial space (cross BBB or bypass it).
 2. **Tropism** — once there, it must transfect *microglia*, not merely neurons and astrocytes.
 
-An IVIS glow of the skull after IV luciferase is not a pass. Sorted myeloid cells with reporter or TREM2 protein is a pass.
+An IVIS glow of the skull after IV luciferase is not a pass. TREM2 or reporter **protein** in FACS-sorted parenchymal myeloid cells is a pass.
 
 ```mermaid
 flowchart TD
-  L[Lipid library] --> IV{IV myeloid over liver}
-  IV -->|Acceptable| P[IV commercial path]
-  IV -->|Hopeless| CSF{CSF myeloid hit}
-  CSF -->|Yes| Q[CSF-facing product]
+  L[2 to 3 published MG-class LNPs plus MC3 SM-102] --> CSF{CSF sorted myeloid protein}
+  CSF -->|Yes| Bio[Biology gate open]
   CSF -->|No| K[Kill]
+  Bio --> IV{IV myeloid over liver}
+  IV -->|Yes| P[IV may join the TPP]
+  IV -->|No| Q[CSF is the product]
 ```
+
+CSF is the **PD-enabling** route. IV is a parallel commercial option. IV failure does not kill the biology.
 
 ## Routes
 
-| Route | Role in the program |
+| Route | Role |
 |---|---|
-| Intravenous | Intended commercial path. Must win or be explicitly deferred. |
-| CSF (intracisternal / ICV / lumbar analog) | Scientific control and highest-probability myeloid hit. |
-| Intranasal | Backup only if IV and CSF both fail practicality. |
-| FUS + IV | Out of scope for seed. |
+| CSF (intracisternal mouse; lumbar IT as human analog) | First exposure assay. Highest published prior for microglia transfection. |
+| Intravenous | Run in parallel. Wins only if myeloid/liver ratio is acceptable. |
+| Intranasal / FUS | Out of scope. |
 
-Decision rule: if IV myeloid/liver exposure is hopeless after the lipid library, **do not** add four antibodies. Switch the label-facing route to CSF or stop.
+## LNP set (seed)
 
-## LNP composition screen (seed)
+Do not raffle 40 novel ionizable lipids.
 
-**Controls:** DLin-MC3-DMA and SM-102 four-component LNPs. MC3 is the clinical ionizable lipid in patisiran (Onpattro).[[10]](references.md) Vaccine-style LNPs are the other baseline.[[9]](references.md)
+- **Controls:** DLin-MC3-DMA and SM-102.[[10]](references.md)[[9]](references.md)
+- **Test:** reproduce or in-license 2–3 published microglia-competent compositions (MG-LNP class; EV-mimetic helper-lipid hits with Ai9/Cre microglia data). One extra charge/SORT variant only if already on the bench.
+- PEG-lipid: 0.5–2.5 mol%; prefer shedding C14 unless tropism forbids it.[[13]](references.md)
 
-**Test set (20–40 total):**
+**Hold constant:** 60–100 nm, PDI ≤ 0.2, encapsulation ≥ 80%, empty fraction reported.
 
-- Ionizable lipids with published CNS bias (5-HT3-motif, acetylcholine-mimetic, LRP1/BBB-module lipids in the MK16 / OS4T family — synthesize or license).
-- Helper lipid and cholesterol ratios (±10 mol%).
-- PEG-lipid mol% 0.5–2.5% and two PEG-lipid chain lengths.
-- One SORT-style fifth lipid / charge variant if a partner lipid is available.
+**Ligands:** none in v1. No CD11b, no HSC antibodies.
 
-**Particle specs to hold constant while lipids vary:**
+## Cargos for the screen
 
-- Diameter 60–100 nm (intensity-weighted)
-- PDI ≤ 0.2
-- Encapsulation ≥ 80%
-- Residual ethanol and empty-particle fraction reported
+- Delivery RNA: Cre (Ai9) or mouse Trem2 — species-matched reagents.
+- Product RNA: human WT TREM2 isoform 1, same particle family after the Cre/mouse pass.
 
-## Ligands
-
-v1 is **ligand-free** or single small-molecule motif built into the lipid.
-
-Optional v1.1, only if composition is close: mannose or anti-CD11b at one density. Do not start with CD34/CD90/c-Kit.
+Include one plaque-bearing 5xFAD / APP cohort in the *delivery* screen, not only in efficacy.[[11]](references.md)
 
 ## Biodistribution interpretation
 
 | Observation | Meaning |
 |---|---|
-| Liver >> brain, no myeloid signal | Standard LNP. Fail IV.[[10]](references.md) |
-| Brain luciferase high, microglia negative | Neuron/astrocyte particle. Fail for TREM2. |
-| Endothelium / choroid positive only | Barrier hit, not parenchyma. Fail. |
-| Sorted microglia positive, liver acceptable | Pass. Measure TREM2 protein next. |
+| Liver >> brain, no myeloid signal | Standard LNP. Fail IV. Keep CSF if that arm hits.[[10]](references.md) |
+| Brain luciferase high, microglia negative | Wrong cell. Fail. |
+| Endothelium / choroid / meninges only | Barrier hit. Fail. |
+| Sorted parenchymal myeloid protein, cytokines tolerable | Pass. |
 
 ## Safety labs tied to delivery
 
-Every in-vivo dose cohort: ALT/AST, plasma cytokines, body weight, histopathology on top compositions. Innate activation from the LNP can look like microglial activation.[[8]](references.md) Subtract empty LNP.
+Every in-vivo cohort: ALT/AST, cytokines, body weight. Repeat-dose: anti-PEG, complement, bone/liver/spleen histology. Full list: [10-safety.md](10-safety.md). Subtract empty LNP.[[8]](references.md)

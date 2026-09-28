@@ -1,7 +1,9 @@
 # NVL-101 scientific brief
 
+Expanded package: [README.md](README.md).
+
 ## Asset
-Human TREM2 mRNA, unmodified coding sequence (codon-optimized), formulated in a microglia-biased LNP.
+Human TREM2 mRNA, codon-optimized WT isoform 1, formulated in a microglia-biased LNP.
 
 ## Why TREM2
 CNS TREM2 is microglial. Loss-of-function alleles increase AD risk. Agonism is in the clinic. Open question: does *more receptor* on plaque-associated microglia add benefit?

@@ -31,3 +31,7 @@ Confirmed published papers. PMIDs checked. Not an exhaustive review.
 14. Szebeni J. Complement activation-related pseudoallergy: a new class of drug-induced acute immune toxicity. *Toxicology*. 2005;216(2-3):106-121. doi:10.1016/j.tox.2005.07.023. PMID: [16140450](https://pubmed.ncbi.nlm.nih.gov/16140450/)
 
 15. Besin G, Milton J, Sabnis S, et al. Accelerated blood clearance of lipid nanoparticles entails a biphasic humoral response of B-1 followed by B-2 lymphocytes to distinct antigenic moieties. *Immunohorizons*. 2019;3(7):282-293. doi:10.4049/immunohorizons.1900029. PMID: [31356158](https://pubmed.ncbi.nlm.nih.gov/31356158/)
+
+16. Mummery CJ, et al. The TREM2 agonistic antibody AL002 in early Alzheimer's disease: a phase 2 randomized trial. *Nat Med*. 2026;32(5):1708-1716. doi:10.1038/s41591-026-04273-1. PMID: [41787076](https://pubmed.ncbi.nlm.nih.gov/41787076/)
+
+17. Filipello F, Morini R, Corradini I, et al. The microglial innate immune receptor TREM2 is required for synapse elimination and normal brain connectivity. *Immunity*. 2018;48(5):979-991.e8. doi:10.1016/j.immuni.2018.04.016. PMID: [29752066](https://pubmed.ncbi.nlm.nih.gov/29752066/)

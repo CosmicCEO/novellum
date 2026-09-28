@@ -2,7 +2,7 @@
 
 Living document. **Minimal** = what must be true to stay in the program. **Ideal** = what we would take into a partner conversation after Phase 1 PD. Numbers are design goals until a protocol and a specification exist.
 
-Citations: [references.md](references.md).
+Citations: [references.md](references.md). Complement detail: [07-complement.md](07-complement.md).
 
 ```mermaid
 flowchart TD
@@ -99,14 +99,18 @@ Cognition is **not** a Phase 1 endpoint and is not a seed claim.
 
 ## 6. Safety envelope
 
+Complement detail and assay list: [07-complement.md](07-complement.md).
+
 | Risk | Minimal control | Kill / hold |
 |---|---|---|
-| Infusion / complement / PEG antibodies | Slow infusion; premed policy TBD; anti-PEG Ig monitoring in repeat-dose animals | Anaphylactoid pattern or complement that cannot be managed |
+| Infusion / complement / PEG antibodies | Shedding PEG-lipid preference; slow infusion; anti-PEG IgM/IgG and C3a/sC5b-9 on redose[[13]](references.md)[[14]](references.md)[[15]](references.md) | CARPA or ABC that particle design cannot fix; do not add a C5 drug to the product |
 | Liver | ALT/AST protocol limits; empty-LNP arm | Persistent >3× ULN with injury |
 | Innate RNA sensing | Modified nucleosides; dsRNA depletion[[8]](references.md)[[9]](references.md) | ISG storm at the PD dose |
 | CNS inflammation / edema | MRI protocol if human; mouse histopathology | ARIA-like signal without a mitigation plan |
 | Off-cell TREM2 in periphery | Biodistribution panel including spleen, liver, bone[[7]](references.md) | Unexpected osteoclast or macrophage toxicity |
 | Over-phagocytosis | Synapse markers only after exposure pass | Clear synaptic loss at PD dose |
+
+Pharmacologic C5 blockade is an in-vitro tool against anti-PEG–driven mRNA leak, not a seed premed.[[13]](references.md)
 
 ---
 
@@ -152,7 +156,7 @@ Composition freeze rule: no multi-ligand conjugation in v1. One lipid library. O
 ## 9. CMC posture (how the TPP is made)
 
 | Step | Seed posture |
-|---|---|
+|---|---|---|
 | mRNA DS | TriLink or Aldevron; ψ-modified; dsRNA depleted |
 | LNP DP | Lonza / Cytiva-PNI / Catalent / Polymun; microfluidic mix |
 | Lipids | Licensed or catalog; FTO memo before IND-enabling spend |
@@ -184,6 +188,7 @@ If we cannot beat “just agonize” in a TREM2-low or variant microglia assay, 
 - Stem-cell surface targeting (CD34 / CD90 / c-Kit)
 - Phase 3 cognitive superiority as a seed milestone
 - Device-enabled BBB opening as part of NVL-101
+- A complement inhibitor co-packaged with NVL-101
 
 ---
 

@@ -2,16 +2,14 @@
 
 ## Cascade
 
-```
-HEK/microglia transfection (mRNA quality)
-        ↓
-iPSC-microglia protein + function     ← Aim 1 / SBIR
-        ↓
-Reporter LNP IV vs CSF, sorted myeloid ← Aim 2 / SBIR
-        ↓
-TREM2 LNP in WT then 5xFAD microglia
-        ↓
-Repeat-dose tox + cytokines
+```mermaid
+flowchart TD
+  Q[mRNA QC] --> D[iPSC-microglia protein and function]
+  D -->|Pass Aim 1| R[Reporter LNP IV vs CSF]
+  D -->|Kill| Z[Stop]
+  R -->|Sorted myeloid hit Aim 2| T[TREM2 LNP in WT then 5xFAD]
+  R -->|No myeloid| Z
+  T --> X[Repeat-dose tox]
 ```
 
 Do not skip to Morris water maze.
@@ -40,7 +38,7 @@ Include a TREM2-R47H iPSC line or knockdown/rescue if commercially available. Th
 | Sorted microglia reporter | Significant vs vehicle and vs MC3 control |
 | Sorted microglia TREM2 protein | Detectable increase vs empty LNP |
 | Liver luciferase or mRNA | Reported as a ratio, not hidden |
-| ALT/AST | Predefine “acceptable” as ≤3× vehicle mean unless histopathology is clean |
+| ALT/AST | Predefine acceptable as ≤3× vehicle mean unless histopathology is clean |
 | Cytokines 2–6 h and 24 h | No Grade-severe analog; document |
 | Plaque metrics (only after exposure pass) | Secondary: 6E10 / methoxy-X04 area, microglial clustering |
 

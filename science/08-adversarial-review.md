@@ -99,13 +99,17 @@ Cognition as “exploratory” is correct. Using 5xFAD behavior as a partner sli
 
 ## 7. TPP language that overreaches the evidence
 
-The TPP is disciplined on cognition and editors. It still smuggles:
+**Status: addressed in TPP v after 2026-09-28 edit.** The five smuggled claims are now banned phrases in [06-target-product-profile.md](06-target-product-profile.md) §11 and rewritten in the brief and opportunity file.
 
-- “Microglia-biased LNP” — no such clinical object exists in this package.
-- IV as preferred route — preferred by commercial wish, not by data.
-- 4–12 week redose — invented.
-- CSF sTREM2 as human PD — confounded by shedding, peripheral leak, and inflammation.
-- Early AD population — genetically nicest story is TREM2-variant carriers, a small slice, not the 400k specialist channel in the market file.
+| Old language | Replacement |
+|---|---|
+| Microglia-biased LNP | Ionizable LNP; tropism is a screen goal |
+| IV preferred | Route undeclared until sorted myeloid protein |
+| 4–12 week redose | Interval unknown; set by in vivo protein decay after ≥2 doses |
+| CSF sTREM2 as human PD | Candidate marker only; never standalone |
+| Launch = all early AD | Genetically sharp slice first: TREM2 hypomorphic carriers |
+
+Re-open this section if those phrases return on slides.
 
 ---
 

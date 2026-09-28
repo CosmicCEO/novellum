@@ -2,11 +2,13 @@
 
 Sahlman: *Is the opportunity real, large enough, and tightly defined?*
 
+US prevalence, Medicare, and pricing cases: [07-us-market.md](07-us-market.md).
+
 ## Customer pain
 
 - Patient: early Alzheimer’s / MCI, amyloid-positive; microglia fail to contain plaques.
 - Prescriber: neurology / memory clinic; already using anti-amyloid antibodies with modest effect and safety burden.
-- Payer: will pay for disease-modifying AD drugs that move biomarkers and then function; first check is safety + target engagement.
+- Payer: CMS already pays for early, amyloid-positive DMTs under NCD 200.3 (CED registry). First check will be safety + target engagement, then incremental value versus Leqembi/Kisunla.
 
 ## Product
 
@@ -30,7 +32,8 @@ TREM2 antibodies and oral agonists act on receptor that is already there. NVL-10
 
 - Seed experiment: $3–8M to delivery gate.
 - IND-enabling: additional $20–40M if gate hits.
-- Product analog: specialty IV or CSF nucleic-acid therapy; pricing in the orphan-to-AD specialty range only after human PD.
+- Price analog: Leqembi ~$26–28k/year list, Kisunla ~$32k/year list, Part B.
+- Planning cases (peak US net): pessimistic ~$90M; base ~$500M; optimistic ~$2.5B. Detail in [07-us-market.md](07-us-market.md).
 - COGS: mRNA + LNP + sterile fill; viable if dose is infrequent and potency is high.
 
 ## What this opportunity is not
@@ -38,3 +41,4 @@ TREM2 antibodies and oral agonists act on receptor that is already there. NVL-10
 - Not a longevity registrational path.
 - Not a multiplex gene-edit platform.
 - Not a four-ligand systemic particle on day one.
+- Not a 7-million-patient treated TAM.

@@ -12,20 +12,20 @@ US prevalence, Medicare, and pricing cases: [07-us-market.md](07-us-market.md).
 
 ## Product
 
-**NVL-101:** human wild-type TREM2 mRNA in a microglia-biased LNP.
+**NVL-101:** human wild-type TREM2 mRNA in an ionizable LNP. Whether that LNP transfects CNS myeloid cells is the first experiment, not a current attribute.
 
-- Transient protein expression; redosable.
+- Transient protein expression; redosable if protein lasts.
 - No genomic integration.
 - Hypothesis: raising TREM2 *copy number* on CNS myeloid cells improves plaque-associated function beyond ligand-only agonism.
 
 ## Differentiation (opportunity wedge)
 
-TREM2 antibodies and oral agonists act on receptor that is already there. NVL-101 asks whether *more receptor on the right cell* is the missing lever.
+TREM2 antibodies and oral agonists act on receptor that is already there. NVL-101 asks whether *more receptor on the right cell* is the missing lever. The genetically sharpest first patients are TREM2 hypomorphic carriers, not the full early-AD channel.
 
 ## Minimum viable test
 
-1. iPSC-microglia: surface TREM2 + Aβ phagocytosis after mRNA-LNP.
-2. Mouse: CNS myeloid (sorted) reporter or TREM2 protein after IV and after CSF.
+1. iPSC-microglia: surface TREM2 + Aβ phagocytosis after mRNA-LNP vs empty LNP, irrelevant mRNA, and agonist; include R47H or TREM2-low.
+2. Mouse: CNS myeloid (sorted) TREM2 protein after IV and after CSF.
 3. Kill if myeloid exposure fails at a tolerable liver/cytokine dose.
 
 ## Economics (directional)
@@ -42,3 +42,4 @@ TREM2 antibodies and oral agonists act on receptor that is already there. NVL-10
 - Not a multiplex gene-edit platform.
 - Not a four-ligand systemic particle on day one.
 - Not a 7-million-patient treated TAM.
+- Not a demonstrated microglia-tropic LNP.

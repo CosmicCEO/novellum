@@ -6,35 +6,33 @@ Numbered notes point to [references.md](references.md).
 
 | System | Use | Do not use as |
 |---|---|---|
-| HEK293 / HepG2 | mRNA integrity, crude expression | Microglia decision |
-| BV-2 | Cheap mouse myeloid transfection | Human TREM2 trafficking |
-| Primary mouse microglia | Supporting phagocytosis | Sole go/no-go |
-| **Human iPSC-microglia** | **Decision line for Aim 1** | — |
-| R47H or TREM2-KD iPSC-microglia | Copy-number vs agonist wedge[[2]](references.md) | Required only if timely |
+| HEK293 / HepG2 | Integrity, crude expression | Microglia decision |
+| BV-2 | Cheap mouse transfection | Human TREM2 trafficking |
+| Primary mouse microglia | Supporting | Sole go/no-go |
+| **Human iPSC-microglia** | **Aim 1 WT line** | — |
+| **R47H or TREM2-low iPSC-microglia** | **Gated wedge vs agonist**[[2]](references.md) | Optional |
 
-Source iPSC-microglia that yield P2RY12/TMEM119/TREM2-positive cells, not generic iPSC macrophages.
+Source P2RY12/TMEM119/TREM2-positive iPSC-microglia, not generic iPSC macrophages.
 
 ## Mice — delivery
 
-- C57BL/6J for reporter biodistribution (both sexes).
-- Interpret cell type by flow on myeloid gates, not by whole-head luciferase.
+- Ai9 × Cre cargo or C57BL/6J + mouse Trem2 mRNA for the first CSF pass (both sexes).
+- One plaque-bearing 5xFAD or APP cohort in the delivery screen.[[11]](references.md)
+- Cell type by flow on parenchymal myeloid gates, not whole-head luciferase.
 
-## Mice — disease (after exposure pass)
+## Mice — disease (after CSF protein pass)
 
 | Model | Why | Limitation |
 |---|---|---|
-| 5xFAD | Fast plaques; standard aggressive amyloid model[[11]](references.md) | Not human-like tau |
-| APP/PS1 | Used in TREM2-deficiency studies[[3]](references.md)[[12]](references.md) | Still amyloid-only |
-| Trem2 R47H on an APP background | Matches the human risk allele[[2]](references.md) | Cost and breeding time |
+| Human TREM2 common-variant BAC on Trem2-null × 5xFAD | Species-matched receptor | Breeding time |
+| Human TREM2 R47H BAC on Trem2-null × 5xFAD | Matches the risk allele[[2]](references.md) | Same |
+| Trem2*R47H humanized-splice-site KI | Avoids cryptic-splice dosage artifact | Still mouse cis-regulation |
+| 5xFAD / APP-PS1 alone | Fast plaques if humanized crosses lag[[11]](references.md)[[3]](references.md) | Human protein claim is weaker |
 
-Primary disease readouts: plaque-associated microglia density, DAM transcripts,[[6]](references.md) plaque compaction and dystrophic neurites.[[5]](references.md) Behavior is exploratory.
+Run **two ages** in whichever amyloid model is used. Stage dependence is documented.[[12]](references.md)
 
-TREM2-knockout results are stage-dependent; do not treat a single age as the whole story.[[12]](references.md)
-
-Do not lead with 3xTg cognition.
+Primary readouts: compaction, plaque-associated microglia, dystrophic neurites,[[5]](references.md) **plus** PSD-95/drebrin and vessel-adjacent Prussian blue ([10-safety.md](10-safety.md)). DAM transcripts supporting only.[[6]](references.md) Behavior exploratory.
 
 ## Translation gaps
 
-- Mouse BBB ≠ aged human BBB.
-- Mouse CSF volume ≠ lumbar IT dosing in people.
-- iPSC-microglia are fetal-like; human DAM is not fully reproduced.[[6]](references.md)
+Mouse BBB ≠ aged human BBB. Mouse ICM ≠ lumbar IT. iPSC-microglia ≠ human DAM.[[6]](references.md) APOE4 not in the first screen unless a MODEL-AD cross is already on the shelf. AL002 says APOE ε4/ε4 is a human safety issue.[[16]](references.md)

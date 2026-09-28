@@ -26,12 +26,14 @@ See `docs/METHOD.md`.
 ```
 business-plan/     Sahlman four-factor plan + business model + capital
 pitch/             Investor outline
-science/           Product and delivery brief
+science/           Biology, mRNA, delivery, assays, models, TPP
 ops/               CMC and vendor split
-fundraising/       Capital sequence
+fundraising/       Capital sequence + SBIR aims
 assets/            Decks, figures, data drops
 docs/              Method notes
 ```
+
+Start science at [`science/README.md`](science/README.md).
 
 ## Current product (locked)
 

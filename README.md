@@ -2,6 +2,9 @@
 
 **NVL-101** — human TREM2 mRNA in a microglia-biased lipid nanoparticle for early Alzheimer’s disease.
 
+NVL-101 (human TREM2 mRNA in an ionizable LNP for early AD) is not a viable company thesis. Genetics for TREM2 remain real. The product does not clear a 50:50 bar for technical success or for regulatory success. Stacked unsolved problems plus a failed occupancy class make a raise dishonest.
+
+This repo is an archive of the argument, not a living development plan.
 Private company workspace. Not a clinical claim. Not investment advice.
 
 ## Method
